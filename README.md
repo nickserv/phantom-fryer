@@ -1,4 +1,6 @@
 # [Game Off 2017](https://itch.io/jam/game-off-2017)
+- Single player platformer / fighter
+- Steampunk scarecrow shoots enemy phantoms to collect gems they drop
 
 ## Development
 1. Install [Unity Personal](https://store.unity.com/products/unity-personal)
