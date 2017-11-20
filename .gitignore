@@ -5,6 +5,8 @@
 /[Bb]uilds/
 
 /Assets/AssetStoreTools*
+/Assets/Editor/WakaTime.meta
+/Assets/Editor/WakaTime/
 /Assets/Plugins/GitHub.meta
 /Assets/Plugins/GitHub/
 
