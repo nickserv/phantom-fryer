@@ -36,5 +36,10 @@ namespace UnityStandardAssets._2D
             m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
         }
+
+
+        void OnTriggerEnter2D(Collider2D other) {
+            Destroy(other.gameObject);
+        }
     }
 }
