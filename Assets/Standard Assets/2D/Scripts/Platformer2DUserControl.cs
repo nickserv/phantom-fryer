@@ -39,7 +39,10 @@ namespace UnityStandardAssets._2D
 
 
         void OnTriggerEnter2D(Collider2D other) {
-            Destroy(other.gameObject);
+            if (other.gameObject.tag == "Coin")
+                Destroy(other.gameObject);
+            else if (other.gameObject.tag == "Phantom")
+                Destroy(gameObject);
         }
     }
 }
