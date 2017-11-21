@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ArmBehind
+    uniqueID: 45192681
+    locked: 0
+  - name: Eye
+    uniqueID: 3535256433
+    locked: 0
+  - name: Body
+    uniqueID: 2213152793
+    locked: 0
+  - name: Armfront
+    uniqueID: 1971977905
+    locked: 0
