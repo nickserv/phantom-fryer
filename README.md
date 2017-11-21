@@ -7,3 +7,4 @@
 2. Download [this repository](https://github.com/nickmccurdy/game-off-2017/archive/master.zip) and extract it
 3. Open project in Unity
 4. Install [GitHub for Unity](https://github.com/github-for-unity/Unity)
+5. Open `Scene.unity`
