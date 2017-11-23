@@ -149,7 +149,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: cc934f51fc632524786844dca51b4475, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 21200002, guid: cc934f51fc632524786844dca51b4475, type: 2}
       propertyPath: m_SortingLayerID
@@ -321,7 +321,7 @@ Transform:
   m_Children:
   - {fileID: 496437303}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &408891093
 MonoBehaviour:
@@ -1126,6 +1126,12 @@ Prefab:
       propertyPath: m_Name
       value: ColumnRight
       objectReference: {fileID: 0}
+    - target: {fileID: 212349691412823180, guid: 53d0fd82a1bc4400cb66f29bcc9b7061,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c1d739b9532761a4f8f628dedcfc673e,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53d0fd82a1bc4400cb66f29bcc9b7061, type: 2}
   m_IsPrefabParent: 0
@@ -1141,7 +1147,7 @@ Transform:
   m_Children:
   - {fileID: 347150742}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1939092717
 Prefab:
@@ -1186,6 +1192,12 @@ Prefab:
       propertyPath: m_Name
       value: ColumnLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 212349691412823180, guid: 53d0fd82a1bc4400cb66f29bcc9b7061,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c1d739b9532761a4f8f628dedcfc673e,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53d0fd82a1bc4400cb66f29bcc9b7061, type: 2}
   m_IsPrefabParent: 0
@@ -1261,7 +1273,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1980429833
 CircleCollider2D:
