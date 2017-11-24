@@ -36,13 +36,5 @@ namespace UnityStandardAssets._2D
             m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
         }
-
-
-        void OnTriggerEnter2D(Collider2D other) {
-            if (other.gameObject.tag == "Coin")
-                Destroy(other.gameObject);
-            else if (other.gameObject.tag == "Phantom")
-                Destroy(gameObject);
-        }
     }
 }

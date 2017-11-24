@@ -110,5 +110,14 @@ namespace UnityStandardAssets._2D
             theScale.x *= -1;
             transform.localScale = theScale;
         }
+
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Coin")
+                Destroy(other.gameObject);
+            else if (other.gameObject.tag == "Phantom")
+                Destroy(gameObject);
+        }
     }
 }
